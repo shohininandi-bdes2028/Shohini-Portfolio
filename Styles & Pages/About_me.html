@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+      }
+      .Navbar {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(3, 50, 13);
+  display: flex;
+  gap: 25%;
+  margin-bottom: 80px;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-top: 7px;
+  font-weight: 700;
+}
+
+.button {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  gap: 20px;
+  padding-right: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  width: auto;
+  height: 80%;
+  text-align: center;
+  padding-top: 11px;
+  font-size: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+
+a.btn:hover {
+  text-decoration: none;
+  color: rgb(3, 50, 13);
+  background-color: white;
+  width: auto;
+  height: 80%;
+  text-align: center;
+  border-radius: 15px;
+}
+.outer_container {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
+      .image_container img {
+        width: 300px;
+        height: Auto;
+        background-color: rgb(3, 50, 13);
+        margin-left: 85px;
+        border-radius: 100%;
+      }
+      .text_container {
+        width: 50%;
+        color: rgb(3, 50, 13);
+        font-size: x-large;
+        margin-left: 85px;
+      }
+
+      .skills{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color:rgb(3, 50, 13) ;
+        color: white;
+        margin: 8px;
+        border-radius: 50px;
+
+      }
+
+      .second_container{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+      }
+      .container {
+        width: 80%;
+        height: 200px;
+        background-color: rgb(3, 50, 13);
+        border-radius: 100px;
+        color: white;
+        padding-left: 100px;
+        padding-top: 45px;
+        font-size: 20px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      }
+
+      .h-scroll {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth; 
+    padding: 1rem;
+    white-space: nowrap;
+   text-align: center;
+   font-size: large;
+  }
+  .item {
+    flex: 0 0 auto;
+    background: rgb(3, 50, 13);
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    min-width: 400px;
+    height: 50px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
+
+  .h-scroll::-webkit-scrollbar { height: 8px; }
+
+    </style>
+  </head>
+  <body>
+    <div class="Navbar">
+      <h1 class="logo">My Portfolio</h1>
+      <div class="button">
+        <a class="btn" href="../index.html">Home</a>
+        <a class="btn" href="About_me.html">About Me</a>
+        <a class="btn" href="Projects.html">Projects</a>
+         <a class="btn" href="Contact_me.html">Contact Me</a>
+       <div ><input id="q" name="q" placeholder="Search" /></div>
+      </div>
+    </div>
+    <div class="outer_container">
+      <div class="image_container">
+        <img
+          src="me.jpg"
+          alt="My photo"
+        />
+      </div>
+      <div class="text_container">
+        <h2>ABOUT ME</h2>
+        <p>
+           I am a dedicated and focused communication design student who loves working in teams and seek new opportunities for growth and development. Passionate about designing and exploring new ideas, I bring creativity and innovation to my work. With a kind and helpful nature, I strive to make a positive impact in every environment. My commitment to excellence and eagerness to embrace new experences make me a valuable asset to any team.
+        </p>
+           <br><br>
+          <h2 style="margin-left: 10px;">SOFTWARE</h2>
+          <br>
+      <span class="skills">Adobe Illustrator</span><Span class="skills">Adobe Photoshop</Span><Span class="skills">Adobe Indesign</Span><br><br><span class="skills">Adobe Premier Pro</span><Span class="skills">Canva</Span><Span class="skills">Figma</Span>
+      <br>
+      <br>
+      <Span class="skills">VSCode</Span><Span class="skills">Maya</Span><Span class="skills">Inshot</Span>
+
+        </p>
+      </div>
+    </div>
+    <div class="Navbar"></div>
+    <div class="second_container">
+      <div class="container">
+        <div><h2>EDUCATION</h2>
+          <br>
+        <p>North Point School-----------------2009-2024</p>
+           <p>Atlas Skilltech University---------2024-present</p>
+           </div>
+      </div>
+      <div class="container">
+        <div><h2>EXPERIENCE</h2>
+          <br>
+        <p>Radhakrishna Agro Industry----------1.5 months</p>
+        <p> Interned as a graphic
+            designer in a B2B company</p>
+           </div>
+      </div>
+</div>
+<h2 style="margin-left: 17px; color:rgb(3, 50, 13); ;">Skills</h2>
+<div class="h-scroll" tabindex="0" aria-label="Scrollable list of phrases">
+  <div class="item">Management Skills</div>
+  <div class="item">Team work</div>
+  <div class="item"> Work ethic</div>
+  <div class="item"> Creative critical thinking</div>
+  <div class="item">Fast learner</div>
+</div>
+</body>
+  </body>
+</html>
